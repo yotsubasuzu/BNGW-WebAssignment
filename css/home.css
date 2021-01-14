@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Open Sans";
+    background-color: #fafafa;
+    height: 100%;
+}
+.header{
+    background-image:url("../imgs/backgroundheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+    margin: 0;
+}
+.logo{
+    width: 120px;
+    margin-top: 20px;
+}
+.logo img{
+    max-width: 100%;
+}
+.toplink{
+    float: left;
+    /*width: 50%;*/
+    margin-top: -80px;
+}
+.toplink ul{
+    float: left;
+}
+.toplink li{
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+}
+.toplink a{
+    text-decoration: none;
+    color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+    position: relative;
+    /*display: inline-block;*/
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f150;
+    min-width: 150px;
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.main{
+    position: relative;
+}
+.background1{
+    background-image: url("../imgs/background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.background2{
+    background-image: url("../imgs/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    height: 900px;
+}
+.cacloaitra img{
+    max-width: 100%;
+    width: 100%;
+    height: 900px;
+}
+.hieuvetra img{
+    max-width: 100%;
+    width: 100%;
+    height: 900px;
+}
+.footer{
+    background-color: #000000de;
+    color: white;
+}
+.nhom img{
+    width: 120px;
+    max-width: 100%;
+}
+.nhom li{
+    list-style: none;
+}
+.contact{
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info i{
+    margin-right: 10px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+button[type=submit]{
+    height: 40px;
+    background-color: forestgreen;
+}
+.subcscribe label{
+    margin-top: 10px;
+}
+.containerend{
+    border-bottom: 1px solid white;
+}
+.endp p{
+    text-align: center;
+    margin-top: 20px;
+}
