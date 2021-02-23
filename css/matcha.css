@@ -1,0 +1,703 @@
+body{
+    font-family: 'Open Sans';
+    color: black;
+}
+section{
+    float:left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header{
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    z-index: 1;
+}
+.header h1{
+    margin:0; padding:0;
+}
+.logo{
+    text-align: center;
+    border: 3px solid #feae3f;
+    height:48px;
+}
+.row{
+    margin: 30px auto;
+}
+h1{
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold;
+}
+.timeline, .art{
+    background-color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#transleaf1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 3;
+    transform: rotate(10deg);
+}
+.timeline h1{
+    text-align: center;
+    text-shadow: 0px 0px 3px #feae3f;/*xem them*/
+}
+.history{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.history .imgDiv{
+    width:100%;
+    background-color: #52f552;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+}
+.history img{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.chip {
+    margin: 20px 25px 20px 50px;
+    display: inline-block;
+    padding: 10px 5px;
+    height: 50px;
+    font-size: 16px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+.chip .year{
+    text-align: center;
+    float: left;
+    margin: -10px 10px 0 -35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 50px;
+    color: black;
+    text-shadow: 1px 0px #52f552;
+    font-size: 16px;
+    font-weight: bold;
+    border: 10px solid #52f552;
+}
+.impact{
+    background-color: rgb(3, 191, 12);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.impact h1{
+    color: darkgreen;
+}
+.impact .container{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.use h3{
+    color: white;
+    font-weight: bold;
+}
+#transleaf2{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 3;
+    transform: rotate(10deg);
+}
+.information{
+    color: rgb(3, 191, 12);
+    height: 80vh;
+    position: relative;
+    background-color: black;
+}
+#circleDiv{
+    width: 80vh;
+    height: 80vh;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+    transition: 1s;
+}
+.overlayDiv{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 40vh solid rgb(3, 191, 12);
+    border-right: 45vh solid transparent;
+    border-bottom: 40vh solid rgb(3, 191, 12);
+    border-left: 45vh solid rgb(3, 191, 12);
+}
+.feature{
+    position:absolute;
+    display: flex;
+    text-align: left;
+    font-weight: bolder;
+}
+.bowl{
+    width: 110vh;
+    position: absolute;
+    top: -15%;
+    left: -30%;
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    text-shadow: #feae3f 1px 1px;
+}
+#upBtn, #downBtn{
+    color: white;
+    width: 15px;
+    cursor: pointer;
+}
+.one{
+    top: 35vh;
+    right: -15vh;
+}
+.two{
+    top: 10vh;
+    right: 0vh;
+    transform: rotate(-45deg);
+}
+.three{
+    top: 1vh;
+    left: 24vh;
+    transform: rotate(-90deg);
+}
+.four{
+    top: 12vh;
+    left: 0vh;
+    transform: rotate(-135deg);
+}
+.five{
+    bottom: 35vh;
+    left: -7vh;
+    transform: rotate(-180deg);
+}
+.six{
+    bottom: 9vh;
+    left: 1vh;
+    transform: rotate(-225deg);
+}
+.seven{
+    bottom: -2vh;
+    right: 22vh;
+    transform: rotate(-270deg);
+}
+.eight{
+    bottom: 8vh;
+    right: -4vh;
+    transform: rotate(-315deg);
+}
+.compare, .planting{
+    background-image: url("../imgs/matcha/bg/bg-compare3.jpg");
+    width: 100%;
+    background-position: left;
+    background-repeat: repeat;
+}
+.compare h3{
+    font-weight: bold;
+    line-height: 1.5;
+}
+.ceremony, .substance, .world{
+    padding: 30px 0;
+}
+.borderGradient{
+    border-left: 20px solid #52f552;
+    border-image:
+            linear-gradient(
+                    to bottom,
+                    green,
+                    rgba(0, 0, 0, 0)
+            ) 1 100%;
+    height: 85vh;
+}
+.overlayWhite{
+    width: 100%;
+    position: relative;
+    background-color: rgba(252, 251, 251, 0.75);
+    padding: 70px 0;
+}
+.table{
+    font-weight: bolder;
+    color: limegreen;
+    text-align: center;
+    font-size: larger;
+}
+tr.success{
+    font-size: larger;
+}
+.ceremony  .row{
+    margin: 0px auto;
+}
+.imgDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+.ceremony img{
+    box-shadow: 2px 2px 2px limegreen;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.imgDiv .figcaption{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 3px;
+    margin: 10px;
+    width: calc(100% - 10px);
+    text-align: center;
+}
+.planting h1{
+    margin: 5px 25px;
+}
+.planting ol, .planting ul{
+    line-height: 2;
+}
+.planting .overlayGreen{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.planting item{
+    z-index: 10;
+}
+.produce{
+    margin-top: 40px;
+}
+.farm{
+    margin-bottom: 60px;
+}
+.produce, .bottra{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.overlayGreen{
+    float:left;
+    width: 100%;
+    position: relative;
+    background: rgba(3, 191, 12, 0.85);
+}
+.produce-text{
+    font-weight: bolder;
+    font-size: larger;
+}
+.videoDiv{
+    background-color: #52f552;
+    padding: 40px;
+}
+.farm p{
+    text-align: justify;
+}
+.farm a{
+    color: darkgreen;
+}
+.farm a:hover{
+    color: blue;
+}
+.farm h5{
+    text-decoration: underline;
+}
+.art h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+    font-style: oblique;
+}
+.art{
+    border-bottom: 10vh groove limegreen;
+}
+.content{
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    height: auto;
+    float: left;
+}
+.content li{
+    overflow: hidden;
+}
+.content li a{
+    display: block;
+    border: 7px solid rgba(255,255,255,.1);
+}
+.art ul li:first-child{ margin-top: 20px; }
+.art ul li:last-child{ margin-bottom: 20px; }
+#content-1, #content-2, #content-3{
+    max-width: 100%;
+    height: 80vh;
+}
+.art img{
+    max-width: 100%;
+    height: auto;
+}
+.fold-curtain{
+    background-repeat: repeat;
+    background-image: url("../imgs/matcha/bg/bg-enjoy3.jpg");
+}
+.flipbg{
+    margin:0;
+    padding:0 ;
+    height: 100vh;
+}
+.flipbg img{
+    width:100%;
+    height: 100vh;
+}
+.day-night, .cf1, .cf2, .weather, .cf2 img, .weather img, .curtain, .fold-curtain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 98.7vw;
+    margin:0 ;
+    padding:0 ;
+}
+.enjoy{
+    height: 100vh;
+}
+.day-night{
+    z-index: -9900;
+}
+.bgDay{
+    background-color: deepskyblue;
+}
+.bgNight{
+    background-color: black;
+    display: none;
+}
+.bgSun{
+    background-color: yellow;
+    display: none;
+}
+.openBtn{
+    position: absolute;
+    top: 33%;
+    left: 41%;
+    text-align: center;
+    border: 5px solid darkolivegreen;
+    background-color: #3c1a01;
+    width: 25%;
+}
+.openBtn .p1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: limegreen;
+    font-weight: bold;
+}
+.openBtn .p2{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom:20px;
+    line-height: 1;
+}
+.sheme{
+    background-color: #3c1a01;
+    height: 10vh
+}
+.weather img{
+    z-index: -8000;
+    display: none;
+}
+.screen-fixed-btn{
+    background-color: white;
+    color: limegreen;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    text-align: center;
+
+}
+.screen-fixed-btn i:hover{
+    cursor: pointer;
+}
+.enjoy .windImg{
+    width: 40%;
+    height: 45%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+.windImg.wLeft, .starImg.wLeft{
+    top: 5%;
+    left: 10%;
+}
+.windImg.wRight, .starImg.wRight{
+    top: 10%;
+    left: 50%;
+}
+.enjoy .starImg{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+#birdFly{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    z-index: -400;
+    display: none;
+}
+#catMeow{
+    width: 17%;
+    height: 17%;
+    z-index: -500;
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    display: none;
+}
+#cake{
+    position: absolute;
+    right:24%;
+    bottom: 3%;
+    width: 20%;
+    height: 25%;
+}
+#dish{
+    position: absolute;
+    right:15%;
+    bottom: 0%;
+    width: 20%;
+    height: 15%;
+}
+#cup{
+    position: absolute;
+    right:13.5%;
+    bottom: -1%;
+    width: 20%;
+    height: 25%;
+}
+#smoke{
+    position: absolute;
+    right: 17%;
+    bottom: 13%;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 30% 30%;
+}
+.overlayBlack{
+    float:left;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.85);
+}
+.powder .overlayBlack{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.powder{
+    background-image: url("../imgs/matcha/bg/bg-powder2.jpg");
+    background-repeat: repeat-y;
+    background-size: 98.7vw auto;
+}
+.powder h2{
+    color: limegreen;
+}
+.powder .imgDiv{
+    box-shadow: 1px 1px 10px darkgrey;
+    padding:0;
+    margin:0;
+}
+.powder .imgDiv:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+.powder img{
+    width: 300px;
+    height: 350px;
+    margin:0;
+}
+.powder a{
+    margin-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+    text-shadow: 2px 2px black;
+}
+.powder a:hover{
+    color:limegreen;
+}
+.powder h4{
+    margin: 0px auto 10px auto;
+    text-shadow: 2px 2px black;
+}
+.powder button{
+    background-color: #666666;
+    border-radius: 0;
+    margin-bottom: 10px ;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px lightgreen;
+}
+.powder button:hover{
+    background-color: #454444;
+    color: white;
+}
+.powder .figcaption{
+    margin:0 ;
+    /*background: rgba(24, 48, 21);*/
+    background: rgba(24, 48, 21, 0.4);
+}
+.ingredient{
+    padding-top: 50px;
+}
+.thumbnail{
+    border: 1px solid green ;
+}
+.thumbnail h3, .thumbnail h4{
+    color: green;
+    font-weight: bold;
+}
+.checkin .imgDiv{
+    position: relative;
+}
+.checkin .row{
+    margin: 70px auto;
+}
+.checkin .intro{
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    background: rgba(92, 253, 3, 0.85);
+}
+.checkin i{
+    color:black;
+    font-size: xx-large;
+}
+.checkin img{
+    width: 100%;
+    height: 80vh;
+}
+.rosefoot{
+    border-top: 45px solid rgb(92, 253, 3);
+    background-image: url("../imgs/matcha/bg/bg-organic.jpg");
+    background-repeat: repeat-y;
+    background-size: 98.7vw 100vh;
+}
+.slogan{
+    text-align: center;
+    width: 98.7vw;
+    height: 100vh;
+    padding: 40vh 30vw;
+}
+.slogan h2{
+    margin-top: 30px;
+    text-transform: full-width;
+    font-size: xx-large;
+    color: white ;
+    font-style: oblique;
+}
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #feae3f, 0 0 20px #feae3f, 0 0 30px #feae3f, 0 0 40px #feae3f;
+    }
+    to {
+        text-shadow: 0 0 20px #f3cf9b, 0 0 30px #f3cf9b, 0 0 40px #f3cf9b, 0 0 50px #f3cf9b;
+    }
+}
+#scrollToTopBtn{
+    color: #81d742;
+    font-size: 8vh;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    z-index: 9999;
+    bottom: 4vh;
+    right: 1vh;
+    position: fixed;
+    display: none;
+}
+#scrollToTopBtn:hover{
+    color: darkgreen;
+    cursor: pointer;
+}
+.footer{
+    background-color: #000000de;
+    color: white;
+}
+.nhom img{
+    width: 120px;
+    max-width: 100%;
+}
+.nhom li{
+    list-style: none;
+    margin-left: -40px;
+}
+.contact{
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info i{
+    margin-right: 10px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+button[type=submit]{
+    height: 40px;
+    background-color: forestgreen;
+    width: 80px;
+}
+.subscribe label{
+    margin-top: 10px;
+}
+/*.ftbrd{*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
+.endp p{
+    text-align: center;
+    /*margin-top: 20px;*/
+}

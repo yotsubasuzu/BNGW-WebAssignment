@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    background-color: green;
+}
+.header .logo img{
+    width: auto;
+    max-width: 300px;
+    margin-left: 40%;
+}
+.nav{
+    width: 100%;
+    background-color: green;
+    padding: 15px 0;
+    text-align: center;
+}
+.nav .logo img{
+    width: auto;
+    max-width: 300px;
+}
+.nav .menu{
+    float: left;
+    padding-left: 150px;
+}
+.nav .menu ul{
+    float: left;
+}
+.nav .menu li{
+    float: left;
+    font-size: 14px;
+    list-style: none;
+    color: #ffffff;
+}
+.main-menu li{
+    margin-right: 65px;
+}
+.main-menu a{
+    color: #ffffff;
+    font-size: 15px;
+    list-style: none;
+    font-weight: 500;
+}
+.login-menu li{
+    margin-left: 15px;
+    list-style: none;
+}
+.login-menu i{
+    font-size: 14px;
+    color: yellow;
+}
+.login-menu span{
+    font-size: 14px;
+    color: #ffffff;
+}
+.login-menu #timkiem{
+    margin-right: 25px;
+}
+.dangnhap button{
+    font-size: 14px;
+}
+
+.modal-title{
+    font-size: 25px;
+    color: #222222;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.modal-body label{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    color: #146dbe;
+    margin: 10px;
+}
+.main{
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    border-bottom: 1px solid red;
+    text-align: center;
+    background-image:url("../imgs/imgs_project/img_30.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.top{
+    float: left;
+}
+.social{
+    float: left;
+    width: 10px;
+    margin-top: 50px;
+}
+.logo i{
+    font-size: 14px;
+    color: white;
+}
+.logo li{
+    float: left;
+    font-size: 10px;
+    list-style: none;
+    margin: 5px;
+    padding-left: 35px;
+}
+hr{
+    float: left;
+    border-color: yellow;
+    width: 30px;
+    border-width: 1.5px;
+    transform: rotate(270deg);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 62px;
+
+}
+.social span{
+    float: left;
+    color: white;
+    width: 90px;
+    height: 20px;
+    margin-top: 60px;
+    transform: rotate(270deg);
+    font-size: 14px;
+    font-weight: 600;
+}
+.content{
+    float: left;
+    width: 900px;
+    padding: 0 90px;
+    position: absolute;
+    margin: 50px 120px;
+    text-align: center;
+}
+.name h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+}
+.des p{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 62px;
+}
+button[name=more]{
+    color: white;
+    font-weight: 600;
+    background-color: #02a202;
+    border-radius: 30px;
+    margin-top: 80px;
+    font-size: 16px;
+    padding: 10px 35px;
+    text-align: center;
+}
+.main2{
+    float: left;
+    background-color: white;
+    border-bottom: 1px solid red;
+}
+.middle{
+    float: left;
+}
+.middle-content{
+    float: left;
+    background-color: white;
+    margin-right: 15px;
+    padding: 40px;
+}
+.tieude h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user-logo{
+    float: left;
+    margin-right: 15px;
+}
+.user-logo img{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.middle-main{
+    float: left;
+    margin-top: 15px;
+}
+.user span{
+    float: left;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.sidebar{
+    float: left;
+    background-color: white;
+    width: 270px;
+}
+.middle-content{
+    float: left;
+    background-color: white;
+    margin-right: 15px;
+    padding: 40px;
+}
+.middle-name h3{
+    font-size: 25px;
+    color: #222222;
+    font-weight: 800;
+}
+.middle-des .trick{
+    font-style: italic;
+}
+.middle-des p{
+    font-size: 14px;
+    color: #222222;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.middle-des li{
+    list-style: none;
+}
+.middle-img img{
+    max-width: 100%;
+    padding-bottom: 1px;
+}
+.middle-tag{
+    float: left;
+    font-family: "Times New Roman";
+}
+.middle-tag ul{
+    float: left;
+    margin-top: 30px;
+    padding-left: 35%;
+}
+.middle-tag li{
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.middle-tag span{
+    color: darkorange;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: italic;
+}
+.middle-tag a{
+    font-size: 14px;
+    color: #222222;
+    font-family: "Times New Roman";
+    font-weight: 700;
+    text-decoration: none;
+}
+.tag-logo ul{
+    float: left;
+    padding-left: 43%;
+}
+.tag-logo li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+.tag-logo i{
+    font-size: 30px;
+}
+.fb{
+    color: blue;
+}
+.in{
+    color: blueviolet;
+}
+.tw{
+    color: blueviolet;
+}
+.tag-author{
+    float: left;
+    margin-top: 80px;
+    height: 200px;
+    width: 600px;
+    margin-left: 90px;
+    border: 2px solid red;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.avatar img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+}
+.info h3{
+    font-size: 15px;
+    color: #222222;
+    font-style: italic;
+    font-weight: 600;
+}
+.nameauthor{
+    font-size: 20px;
+    color: red;
+    font-weight: 800;
+}
+.details{
+    font-size: 14px;
+    color: #222222;
+    margin-left: 90px;
+}
+.links{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    margin-left: 90px;
+    background-color: black;
+    border-radius: 45%;
+}
+.links a{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding-left: 25%;
+}
+.comment{
+    float: left;
+    margin-top: 100px;
+}
+.comment h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #222222;
+}
+.comment p{
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.form-group{
+    margin-left: 29px;
+}
+.comment input{
+    padding-left: 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    height: 50px;
+    margin-left: 7px;
+}
+.comment input[name=youremail]{
+    float: left;
+    width: 290px;
+}
+.comment input[name=name]{
+    float: left;
+    width: 290px;
+}
+.comment textarea{
+    float: left;
+    padding: 15px;
+    border-radius: 30px;
+    width: 600px;;
+}
+.comment label{
+    float: left;
+    padding-top: 10px;
+}
+.comment button[name=more]{
+    float: left;
+    color: white;
+    font-weight: 600;
+    background-color: #02a202;
+    width: 180px;
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.comment button span{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.sidebar h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+.sidebar i{
+    font-size: 15px;
+    margin-right: 10px;
+    color: #279627;
+}
+.search input[name=search]{
+    float: left;
+    width: 250px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 30px;
+}
+.sidebar li{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: orange;
+}
+.cate{
+    margin-top: 50px;
+}
+.cate a{
+    list-style: none;
+    color: #222222;
+    text-decoration: none;
+}
+.cate span{
+    font-size: 13px;
+    color: darkorange;
+}
+.recent img{
+    height: 80px;
+    width: 110px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid red;
+}
+.post1{
+    margin-bottom: 25px;
+}
+.post a{
+    text-decoration: none;
+}
+.post .date{
+    font-size: 14px;
+    font-weight: 700;
+    color: #30afd6;
+    font-style: italic;
+}
+.post h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #222222;
+}
+.cmt ul{
+    float: left;
+}
+.cmt li{
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.cmt .cmt-name{
+    font-size: 14px;
+    color: darkorange;
+    font-weight: 600;
+}
+.cmt .on{
+    font-size: 11px;
+    color: #222222;
+    font-style: italic;
+}
+.cmt a{
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #000000de;
+    color: white;
+}
+.nhom img{
+    width: 120px;
+    max-width: 100%;
+}
+.nhom li{
+    list-style: none;
+}
+.contact{
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info i{
+    margin-right: 10px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+button[type=submit]{
+    height: 40px;
+    background-color: forestgreen;
+    width: 80px;
+}
+.subscribe label{
+    margin-top: 10px;
+}
+.endp p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+

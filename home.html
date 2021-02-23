@@ -5,8 +5,7 @@
     <title>Web Front-End: Nhóm 4 - Trà/Tea/茶</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
-    <link rel="stylesheet" href="libs/fontawesome-5.15/css/all.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -18,68 +17,75 @@
         <div class="toplink col-md-offset-3">
             <ul>
                 <li>
-                    <a href="#">Trang chủ</a>
+                    <a href="home.html">Trang chủ</a>
                 </li>
 
                 <li>
                     <div class="dropdown">
-                        <a href="#"> Các loại trà</a>
+                        <a> Các loại trà</a>
                         <div class="dropdown-content">
-                            <a href="#">Trà Xanh</a>
-                            <a href="#">Hồng Trà</a>
-                            <a href="#">Trà Ô-Long</a>
-                            <a href="#">Matcha</a>
-                            <a href="#">Trà Shan Tuyết</a>
-                            <a href="#">Trà Thảo Mộc</a>
-                            <a href="#">Trà Sen</a>
-                            <a href="#">Trà Mạn</a>
+                            <a href="matcha.html">Matcha</a>
+                            <a href="pj2.html">Trà Shan Tuyết</a>
                         </div>
                     </div>
                 </li>
 
                 <li>
-                    <div class="dropdown">
-                        <a href="#">Hiểu về trà</a>
-                        <div class="dropdown-content">
-                            <a href="#">Trà Là Gì?</a>
-                            <a href="#">Cách Pha Trà</a>
-                            <a href="#">Cách Bảo Quản Trà</a>
-                            <a href="#">Chỉ dẫn hương vị</a>
-                            <a href="#">Trà Đạo</a>
-                        </div>
-                    </div>
+                    <a href="tradao.html">Trà Đạo</a>
                 </li>
 
                 <li>
-                    <a href="#">Liên hệ</a>
+                    <a href="#lienhe">Liên hệ</a>
                 </li>
             </ul>
         </div>
+
+        <div class="headtitle col-md-offset-1">
+            <h1>Trà Là Gì ?</h1>
+            <p>Bạn đã bao giờ tự hỏi Trà là gì chưa? Nếu Châu Âu tự hào về rượu như đỉnh cao của nghệ thuật ẩm thực Phương Tây, thì Phương Đông có trà, là đồ uống thuần khiết nhưng phong phú về hương vị, tinh tế và đòi hỏi người thưởng thức phải có sự nhạy bén của các giác quan. Trà là đẳng cấp của hương vị Châu Á.</p>
+        </div>
+<!--        <div class="readmore col-md-offset-5">-->
+<!--            <button><a href="#">Read more</a></button>-->
+<!--        </div>-->
     </div>
 </header>
 
 <section class="section main">
     <div class="background1">
-        <p>huagkdgaskjdduasgdusgdkakgjdagsd;asdgawgdagdkhasghdgashdg</p>
     </div>
     <div class="cacloaitra">
         <img src="imgs/cac-loai-tra.jpg"/>
+        <div class="clt">
+            <h1>Các loại trà</h1>
+            <p>Hiểu về các loại trà khác nhau là bước đầu tiên bạn nên làm <br/> để bắt đầu khám phá thế giới hương vị phong phú này.</p>
+<!--            <div class="readmoreclt col-md-offset-5">-->
+<!--                <button><a href="#">Read more</a></button>-->
+<!--            </div>-->
+        </div>
+
     </div>
     <div class="background2">
-        <p>agkgiwugiauwgdiawdgkadgkawgdwugdiakasdgkasdgagewotayfshdgk</p>
     </div>
     <div class="hieuvetra">
         <img src="imgs/hieu-ve-tra.jpg"/>
+        <div class="tradao">
+            <h1>Trà Đạo</h1>
+            <p>Trà đạo là phong cách uống trà hướng đến giá trị tinh thần. Thông qua các lễ thức trà được quy định với nhau từ trước, mọi người cùng uống trà trong sự khoan thai nhẹ nhàng. Dừng lại với giây phút hiện tại, thưởng thức một chén trà ngon và cảm nhận sự an nhiên tâm hồn.</p>
+<!--            <div class="readmoretd col-md-offset-5">-->
+<!--                <button><a href="#">Read more</a></button>-->
+<!--            </div>-->
+        </div>
     </div>
+
 </section>
 
-<footer class="panel-footer section footer">
-    <div class="container containerend">
+<footer class="panel-footer section footer" id="lienhe">
+    <div class="container">
         <div class="col-md-4 nhom">
             <img src="imgs/logo.jpg"/>
             <p>Nhóm 4: Trà</p>
             <ul>
-                <li>Nguyễn Thị Phương Hồng</li>
+                <li>Lê Thị Phương Hồng</li>
                 <li>Nguyễn Ngọc Linh</li>
                 <li>Lê Gia Khải</li>
                 <li>Nguyễn Minh Tuấn</li>
@@ -91,25 +97,26 @@
             <div class="contact">
                 <h4>Contact Info</h4>
             </div>
-            <h4><i class="fas fa-map-marker-alt"></i>Địa chỉ</h4>
+            <h4>Địa chỉ</h4>
             <p>Tòa nhà Detech số 8 Tôn Thất Thuyết <br/>
                 P. Dịch Vọng Hậu, Q. Cầu Giấy, Hà Nội</p>
 
-            <h4><i class="fas fa-phone-volume"></i>Điện thoại</h4>
+            <h4>Điện thoại</h4>
             <p>0773738291</p>
         </div>
 
-        <div class="col-md-4 subcscribe">
+        <div class="col-md-4 subscribe">
             <div class="contact">
                 <h4>Subscribe</h4>
             </div>
             <form method="post" action="#">
-                <input name="subcribe" type="email" placeholder="E-mail ..."/>
+                <input name="subscribe" type="email" placeholder="E-mail ..."/>
                 <button type="submit">Subscribe</button>
                 <label><input name="confirm" type="checkbox" checked/>Tôi xác nhận đồng ý với các điều kiện và điều khoản.</label>
             </form>
         </div>
     </div>
+    <hr style="color: white;size: 1px"/>
     <div class="endp">
         <p>Web Front-End Kỳ 1 - 2021 | Online Theme Reference</p>
     </div>

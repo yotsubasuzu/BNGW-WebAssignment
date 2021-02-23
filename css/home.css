@@ -76,8 +76,104 @@ body{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+.headtitle{
+    text-align: center;
+    width: 80%;
+    margin-top: 20%;
+}
+.headtitle h1{
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+.headtitle p{
+    font-size: 18px;
+    color: #f8f8f8;
+    font-weight: 500;
+}
+.readmore button{
+    width: 120px;
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+}
+.readmore a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
 .main{
     position: relative;
+}
+.cacloaitra img{
+    -webkit-filter: opacity(80%);
+}
+.clt{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.clt h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: -10%;
+}
+.clt p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.readmoreclt button{
+    width: 120px;
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.readmoreclt a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+.hieuvetra{
+    position: relative;
+}
+.tradao{
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    width: 60%;
+}
+.tradao h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    /*margin-left: -10%;*/
+    color: #f8f8f8;
+}
+.tradao p{
+    text-align: center;
+    margin-left: 8%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #f8f8f8;
+    width: 80%;
+}
+.readmoretd button{
+    width: 120px;
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.readmoretd a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
 }
 .background1{
     background-image: url("../imgs/background1.jpg");
@@ -141,14 +237,15 @@ input[placeholder]{
 button[type=submit]{
     height: 40px;
     background-color: forestgreen;
+    width: 80px;
 }
-.subcscribe label{
+.subscribe label{
     margin-top: 10px;
 }
-.containerend{
-    border-bottom: 1px solid white;
-}
+/*.ftbrd{*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
 .endp p{
     text-align: center;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }

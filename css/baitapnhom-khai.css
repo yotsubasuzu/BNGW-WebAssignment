@@ -1,0 +1,114 @@
+.pager {
+    width: 100%;
+}
+.page-header {
+    text-align: center;
+}
+.page-header img {
+    border: 8px inset #1593b2;
+}
+.left {
+    float: left;
+    padding: 0 0 0 20px;
+}
+.center ol{
+    float: left;
+    margin-top: 0;
+}
+.center {
+    float: left;
+    margin: 0 0 0 250px;
+    text-align: center;
+}
+.toplink{
+    margin-left: 150px;
+}
+.toplink ul{
+
+}
+.toplink li{
+    list-style: none;
+    margin-left: 40px;
+}
+.right {
+    text-align: end;
+    margin: 0 20px 0 0;
+}
+.nivoSlider img {
+    /*padding: 20px;*/
+    width: 100%;
+    /*height: auto;*/
+}
+.imgs img{
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 20px;
+}
+.success img{
+    height: auto;
+    padding: 20px;
+    width: 80%;
+    margin-left: 100px;
+}
+.success p{
+    float: right;
+    padding: 20px;
+    font-size: 17px;
+}
+/*.success iframe {*/
+/*    padding: 20px;*/
+/*    width: 40%;*/
+
+.footer{
+    background-color: #000000de;
+    color: black;
+}
+.nhom img{
+    width: 120px;
+    max-width: 100%;
+}
+.nhom li{
+    list-style: none;
+    margin-left: -40px;
+}
+.contact{
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info i{
+    margin-right: 10px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+button[type=submit]{
+    height: 40px;
+    background-color: forestgreen;
+    width: 80px;
+}
+.subscribe label{
+    margin-top: 10px;
+}
+/*.ftbrd{*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
+.endp p{
+    text-align: center;
+    /*margin-top: 20px;*/
+}
+#endline{
+    color: black; !important;
+}
