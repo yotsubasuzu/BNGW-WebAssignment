@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    background-color: #fafafa;
+}
+.page {
+    background-image: url("../imgs/img_46.png");
+    background-size: cover;
+    height: 500px;
+    margin-top: -20px;
+
+}
+.page img{
+    float: left;
+    margin-top: -95px;
+
+}
+.input {
+    float: right;
+    margin-right: -1000px;
+    margin-top: -95px;
+}
+
+.tren1 {
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+.tren2{
+    float: right;
+    margin-right: 500px;
+    margin-top: 280px;
+    text-align: center;
+    display: flex;
+}
+.tren3{
+
+    margin-top: -20px;
+    font-weight: bold;
+    background-color: #3c763d;
+
+}
+.tren4 {
+    margin-top: -20px;
+    background-image: url("../imgs/img_37.png");
+}
+.tren4 p {
+    width: 750px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tren4 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.giua{
+    background-color: #a6e1ec;
+    margin-top: -20px;
+}
+.giua2{
+    background-color:  #151515;
+    color: white;
+    margin-top: -20px;
+}
+.giua2 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.top{
+    background-color: #3c763d;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.duoi1 {
+    margin-right: 500px;
+    width: 650px;
+    margin-top: 20px;
+    margin-top: -20px;
+}
+.duoi1 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.duoi2{
+    margin-left: 751px;
+    width: 650px;
+    margin-top: -480px;
+    
+}
+.duoi2 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.duoi3 {
+    margin-right: 500px;
+    width: 650px;
+
+}
+.duoi3 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.duoi4 {
+    margin-left: 751px;
+    width: 650px;
+    margin-top: -460px;
+}
+.duoi4 img:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.cuoi1   {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    margin: 0 150px;
+    padding: 9px;
+    background-color: white;
+    border: 3px solid ;
+    box-shadow: 2px 2px 50px #3c763d;
+}
+.cuoi1 img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+.shop1:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop2:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop3:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop4:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop5:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.cuoi2 {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    margin: 0 150px;
+    padding: 9px;
+    background-color: white;
+    border: 3px solid;
+}
+.cuoi2 img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.shop6:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop7:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop8:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop9:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.shop10:hover{
+    transform: skew(20deg);
+    background-color: #3c763d;
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+.footer{
+    background-color: #000000de;
+    color: black;
+}
+.nhom img{
+    width: 120px;
+    max-width: 100%;
+}
+.nhom li{
+    list-style: none;
+}
+.contact{
+    border-bottom: 2px solid forestgreen;
+    color: forestgreen;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.info i{
+    margin-right: 10px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+button[type=submit]{
+    height: 40px;
+    background-color: forestgreen;
+    width: 80px;
+}
+.subscribe label{
+    margin-top: 10px;
+}
+/*.ftbrd{*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
+.endp p{
+    text-align: center;
+    /*margin-top: 20px;*/
+}
+.header{
+    background-image:url("../imgs/backgroundheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+    margin: 0;
+}
+.logo{
+    width: 120px;
+    margin-top: 20px;
+}
+.logo img{
+    max-width: 100%;
+}
+.toplink{
+    float: left;
+    /*width: 50%;*/
+    margin-top: 50px;
+}
+.toplink ul{
+    float: left;
+}
+.toplink li{
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+}
+.toplink a{
+    text-decoration: none;
+    color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+    position: relative;
+    /*display: inline-block;*/
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f150;
+    min-width: 150px;
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
